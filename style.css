@@ -17,3 +17,19 @@ p {
   font-size: 16px;
   color: #666666;
 }
+
+.contact-link {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #111111;
+  border-bottom: 1px solid #111111;
+  padding-bottom: 2px;
+  transition: opacity 0.2s ease;
+}
+
+.contact-link:hover {
+  opacity: 0.6;
+}
+
