@@ -1,23 +1,31 @@
 body {
   margin: 0;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: #000;
+  padding-top: 120px;
+  text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.logo {
+  max-width: 700px;
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 0 auto 40px auto;
 }
 
 .contact-link {
-  margin-top: 30px;
-  font-size: 13px;
-  letter-spacing: 1px;
-  color: #ffffff;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 14px;
   text-decoration: none;
-  opacity: 0.8;
+  color: #ffffff;      
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 2px;
+  transition: opacity 0.2s ease;
 }
 
 .contact-link:hover {
-  opacity: 1;
+  opacity: 0.6;
 }
